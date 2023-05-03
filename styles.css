@@ -1,0 +1,393 @@
+header img {
+    width: 250px;
+    height: 28px;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.8rem 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 1000;
+  }
+  .navbar {
+    display: flex;
+    gap: 1.3rem;
+  }
+  #About,
+  #Career:hover,
+  #Departments:hover {
+    color: aqua;
+    text-decoration: none;
+  }
+  #Career,
+  #Departments {
+    color: aqua;
+  }
+  .navbar {
+    font-size: 15px;
+    font-weight: 380;
+  }
+  /* done with first section */
+  
+  #intrologo {
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+    height: 40px;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+  }
+  #introp {
+    color: aqua;
+    font-size: 3.29rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+  }
+  .paragraphss {
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 250px;
+    padding-right: 270px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .firstparagraph {
+    padding-right: 30px;
+  }
+  /* section2done */
+  .firstfor {
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+  }
+  .secondfor {
+    background-color: plum;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+  }
+  .thirdfor {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+  }
+  .forsection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1.375em 1.25em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: blue;
+    font-family: Work Sans, Arial, sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+  }
+  firstselect {
+    background-color: aqua;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .secondselect {
+    background-color: aqua;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .thirdselect {
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .firstfor #firstfortitle,
+  .secondfor #secondfortitle,
+  .thirdfor3 #thirdfortitle {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: black;
+    margin: 0.3em 0;
+    font-family: Work Sans, Arial, sans-serif;
+  }
+  .forsection img {
+    width: 25px;
+    height: auto;
+  }
+  /* done section 2 */
+  .section3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section3 div {
+    width: 60%;
+    display: flex;
+  }
+  #section3subtopic {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: aqua;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+  #section3pics {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+  #section3pics img {
+    width: 7.5rem;
+    object-fit: contain;
+  }
+  /* section 3 done */
+  .section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: white;
+    padding-left: 50px;
+  }
+  .section4header {
+    font-family: Work Sans, Arial, sans-serif;
+    padding-top: 60px;
+  }
+  .section4header h2 {
+    color: aqua;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+  }
+  .section4header sub {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: grey;
+    padding-bottom: 50px;
+  }
+  .first2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .second2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .section4fourparts {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+  }
+  .section4fourparts h2 {
+    font-size: 1.9;
+    color: aqua;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+  .section4fourparts p {
+    font-size: 0.8;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: whitesmoke;
+  }
+  #executive {
+    margin-bottom: 20px;
+  }
+  #visits {
+    margin-bottom: 20px;
+  }
+  #executive,
+  #patients,
+  #visits,
+  #doctors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+  }
+  #executive img,
+  #patients img,
+  #visits img,
+  #doctors img {
+    width: 25px;
+    height: auto;
+  }
+  .section4fourparts div {
+    height: 500px;
+    width: 250px;
+  }
+  /* Section 4 done */
+  .section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+  }
+  .section5 h2 {
+    font-size: 2.1428571429em;
+    color: aqua;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+  }
+  .section5 p {
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: aqua;
+  }
+  /* section 5 done */
+  .section6 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5cm;
+    justify-content: center;
+  }
+  .section6 div {
+    border-radius: 3%;
+    margin: 0.50%;
+  }
+  
+  .section6 button {
+    margin-top: 0.5cm;
+    display: flex;
+    gap: 1.5cm;
+    justify-content: center;
+    background: blanchedalmond;
+    line-height: 1em;
+    color: #black;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4.5px;
+    font-size: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+    margin-right: 20px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section6 p {
+    font-size: medium;
+    color: grey;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  div .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* section 6 done */
+  
+  .section7 h1 {
+  font-size: 2;
+  color: black;
+  margin-bottom: 0.75em;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 290;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+.section7 button {
+  margin-left: 120px;
+  background-color: skyblue;
+  color: whitesmoke;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  border: #fff;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+}
+.section7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* section7 done */
+  
+  footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, 
+    color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  footer p {
+    padding-top: 15px;
+  }
